@@ -1,0 +1,30 @@
+/* Centrar todo el contenido en la pantalla verticalmente y horizontalmente */
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Asegurarse de que ocupe al menos toda la altura de la ventana del navegador */
+  padding: 20px;
+}
+
+.buttons-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center; /* Centrar los botones horizontalmente */
+  gap: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #555;
+}
